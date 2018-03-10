@@ -100,6 +100,8 @@ See [confirmed versions](https://github.com/weseek/crowi-plus/wiki/Developers-Gu
 ```bash
 git clone https://github.com/weseek/crowi-plus.git
 cd crowi-plus
+cp config/env.dev.sample.js config/env.dev.js # copy dev config file
+cp config/env.prod.sample.js config/env.prod.js #  copy production config file
 yarn
 MONGO_URI=mongodb://MONGO_HOST:MONGO_PORT/crowi npm start
 ```
