@@ -34,3 +34,6 @@ npm-debug.log
 .idea
 .vscode
 
+# config files #
+env.dev.js
+env.prod.js
